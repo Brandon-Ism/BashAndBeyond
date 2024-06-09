@@ -10,7 +10,7 @@ This repository is a collection of Bash scripts designed to demonstrate a wide r
 1. [Introduction](#introduction)
 2. [Getting Started & Installation](#getting-started--installation)
 3. [Scripts](#scripts_)
-4. Usage
+4. [Usage](#usage_)
 5. Contributing
 6. License
 
@@ -25,7 +25,7 @@ To get started with the scripts within this repository, ensure that you are runn
 - Bash (version 4.0 or higher recommended)
     - To check your version of Bash, run:
     ```
-    $ bash --version
+    bash --version
     ```
 - Basic understanding of command-line interface, or willingness to self-learn. 
 
@@ -46,3 +46,15 @@ cd BashAndBeyond
     - Filename: `script_name.sh`
     - Description: Description of script...
     - Usage: command to run script `./script_name.sh`
+
+## Usage
+To execute any script from this repository, navaige to the repo directory on you machine, and run the script using Bash. For example:
+```
+./script_name.sh
+```
+
+Please ensure that the scripts you wish to run have execute permissions:
+```
+chmod +x script_name.sh
+```
+
