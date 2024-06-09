@@ -58,3 +58,14 @@ Please ensure that the scripts you wish to run have execute permissions:
 chmod +x script_name.sh
 ```
 
+## Contributing 
+Contributions are welcome! 
+Since this repository is aimed to provide a learning experience, please fork this repository and submit pull requests for any enhancements, bug fixes, or new scripts.
+
+### Steps to make a contribution:
+1. Fork this repository. 
+2. Create a new branch.
+3. Commit your changes. 
+4. Push to the branch. 
+5. Create a new Pull Request.
+
