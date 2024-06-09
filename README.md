@@ -10,9 +10,9 @@ This repository is a collection of Bash scripts designed to demonstrate a wide r
 1. [Introduction](#introduction)
 2. [Getting Started & Installation](#getting-started--installation)
 3. [Scripts](#scripts_)
-4. [Usage](#usage_)
-5. Contributing
-6. License
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](/LICENSE)
 
 # Introduction
 Welcome to BashAndBeyond! This repository has been created as an academic and experimental space aimed at exploring Bash and shell scripting. It (aims to) include a wide range of scripts and tutorials that cover everything from basic commands to complex automation tasks, providing a comprehensive learning experience. The goal is to not only enhance practical skills but also to document and showcase my learning journey as I prepare to apply to graduate programs in Computer Science. Whether you're a beginner or an advanced user, I hope you find these resources both informative and instrumental in your own scripting endeavors.
@@ -69,3 +69,5 @@ Since this repository is aimed to provide a learning experience, please fork thi
 4. Push to the branch. 
 5. Create a new Pull Request.
 
+## LICENSE
+This repository is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
