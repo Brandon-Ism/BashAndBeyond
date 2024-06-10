@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#NOTE: This script requires a graphical interface as notify-send relies on a desktop environment.
+
 # Function to check if necessary packages are installed.
 is_installed() {
     if ! command -v $1  &> /dev/null # Checks if program passed as '$1', is in path and can be executed.
