@@ -10,4 +10,7 @@ is_installed() {
     fi # End 'if'.
 }
 
+# Pass 'libnotify_bin' to function to check if installed.
+is_installed libnotify_bin #libnotify_bin proviced 'notify-send' command.
+
 
