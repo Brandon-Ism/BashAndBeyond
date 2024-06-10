@@ -13,4 +13,11 @@ is_installed() {
 # Pass 'libnotify_bin' to function to check if installed.
 is_installed libnotify_bin #libnotify_bin proviced 'notify-send' command.
 
+# Check if 'at' is installed and daemon is running
+is_installed at
+if ! systemctl i-active --quiet atd; then # Checks if 'atd' daemon is running
+                                          # 'atd' schedules commands to be run at a specified time.
+    echo "at daemon is not currently active, attempting to start up..."
+    sudo systemctl enable -now atd # If dameon is not curr. active, enables and starts. 
+fi
 
