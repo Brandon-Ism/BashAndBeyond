@@ -37,10 +37,10 @@ cd BashAndBeyond
 ```
 
 ## Scripts
-- PLACEHOLDER HEADER
-    - Filename: `script_name.sh`
-    - Description: Description of script...
-    - Usage: command to run script `./script_name.sh`
+- System Update and Upgrade Script
+    - Filename: [`update-system.sh`](system-automation/update-system.sh)
+    - Description: Updates and upgrades an Ubuntu-based system by refreshing package lists, upgrading installed packages, performing a full distribution upgrade, and cleanign up unnecessary packages. 
+    - Usage: command to run script `./update-system.sh`
 
 - PLACEHOLDER HEADER
     - Filename: `script_name.sh`
